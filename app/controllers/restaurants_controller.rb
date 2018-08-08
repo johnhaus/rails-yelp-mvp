@@ -1,12 +1,11 @@
 class RestaurantsController < ApplicationController
-  before_action :find_restaurant, only: [:create,:show]
+  before_action :find_restaurant, only: [:create, :show]
 
   def index
     @restaurants = Restaurant.all
   end
 
   def show
-    @restaurant = Restaurant.find(find_restaurant)
   end
 
   def new

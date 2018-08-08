@@ -14,26 +14,31 @@ restaurants_attributes = [
     name:         'Dishoom',
     address:      '7 Boundary St, London E2 7JE',
     category:     'chinese',
+    phone_number: '654819843'
   },
   {
     name:         'Pizza East',
     address:      '56A Shoreditch High St, London E1 6PQ',
     category:     'italian',
+    phone_number: '744819843'
   },
   {
     name:         'Dinner Only',
     address:      '25 Bound St, London E5',
     category:     'french',
+    phone_number: '334819843'
   },
   {
     name:         'Pizza West',
     address:      '588 West St, London',
     category:     'italian',
+    phone_number: '444719843'
   },
   {
     name:         'Burgers',
     address:      '89 Boundary St, London E2 7JE',
     category:     'belgian',
+    phone_number: '654888843'
   }
 ]
 Restaurant.create!(restaurants_attributes)
